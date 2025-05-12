@@ -21,10 +21,10 @@
                     <div class="imagewrap">
                         <div class="image-container">
                             <?php
-                            $dice = rand(0, 2);
+                            $dice = rand(0, 99);
                             echo "Is that the Red Mist?<br>";
                             if ($dice <= 10) {
-                                echo "<img src=\"assets/img/i1.jpg\">";
+                                echo "<img src=\"assets/img/img1.jpg\">";
                                 echo "THE RED MIST?!";
                             } else {
                                 echo "No red mist sad, try again.";
