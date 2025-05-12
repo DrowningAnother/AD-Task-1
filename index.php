@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Favour is in the air.</title>
     <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <body>
     <div id="header">
         <nav>
-            <a> Weird </a>
+            <a href="index.php"> Peculiar Website </a>
         </nav>
     </div>
     <div id="main-wrapper">
@@ -21,25 +21,36 @@
                     <div class="imagewrap">
                         <div class="image-container">
                             <?php
-                            $dice = rand(0, 99);
-                            echo "Is that the Red Mist?<br>";
-                            if ($dice <= 10) {
-                                echo "<img src=\"assets/img/img1.jpg\">";
-                                echo "THE RED MIST?!";
-                            } else {
-                                echo "No red mist sad, try again.";
+                            $d1 = rand(0, 99);
+                            for ($i = 0; $i < $d1 * 0.1; $i++) {
+                                echo "o";
                             }
-
-
+                            echo "<br>";
+                            if ($d1 >= 50) {
+                                echo "You found nothing.";
+                            } else if ($d1 >= 40) {
+                                echo "Hush, Jam is sleeping.";
+                                echo "<img src=\"assets/img/sleeping.jpg\">";
+                            } else if ($d1 >= 30) {
+                                echo "You found the rizzler!";
+                                echo "<img src=\"assets/img/mika.jpg\">";
+                            } else if ($d1 >= 20) {
+                                echo "You found the Kawasaki!!!<br>Click it to go to the funny page.";
+                                echo "<a href=\"pages/winpage/index.php\"><img src=\"assets/img/kawasaki.jpg\"></a>";
+                            } else if ($d1 >= 10) {
+                                echo "JM is sleeping.!";
+                                echo "<img src=\"assets/img/jmsleep.jpg\">";
+                            } else {
+                                echo "This weird person invites you to a game! <br> He is a gamer.";
+                                echo "<img src=\"assets/img/emirusimp.jpg\">";
+                            }
                             ?>
                         </div>
                     </div>
-
                 </h1>
             </div>
         </div>
     </div>
-
     <?php
     ?>
 </body>
