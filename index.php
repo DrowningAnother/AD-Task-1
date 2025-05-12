@@ -9,7 +9,10 @@
 
 <body>
     <?php
-    echo "Hi";
+    $num = 25;
+
+    echo "Hi <br>";
+    echo "Laguee";
     ?>
 </body>
 
