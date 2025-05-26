@@ -4,10 +4,8 @@
 
 <br />
 <div align="center">
-<!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Goofy Random Adventure.</h3>
 </div>
-<!-- TODO: Make a short description -->
 <div align="center">
   A nothing burger program that has a chance of different events with no purpose at all.
 </div>
@@ -117,7 +115,6 @@ AD-ProjectName
 
 ## Resources
 
-<!-- TODO: Add References -->
 <!-- Add for future use. -->
 
 | Title        | Purpose                                                                       | Link          |
