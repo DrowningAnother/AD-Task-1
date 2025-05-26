@@ -11,6 +11,8 @@
 </div>
 
 <br />
+
+![](https://visit-counter.vercel.app/counter.png?page=DrowningAnother/AD-Task-1)
 <br />
 <br />
 
