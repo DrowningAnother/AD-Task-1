@@ -9,7 +9,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  A nothing burger program that has a chance of different events with no purpose at all.
 </div>
 
 <br />
@@ -43,10 +43,7 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
-
-Description of the project in details.
+This program randomly generates a certain event to happen, with a picture and description of the event. The event is randomized everytime the page is refreshed. There is also a secret page that can be found by chance in one of these events.
 
 ### Key Components
 
@@ -121,10 +118,8 @@ AD-ProjectName
 ## Resources
 
 <!-- TODO: Add References -->
+<!-- Add for future use. -->
 
 | Title        | Purpose                                                                       | Link          |
 | ------------ | ----------------------------------------------------------------------------- | ------------- |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
